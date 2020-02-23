@@ -11,8 +11,6 @@ import com.apress.books.model.Book;
 public class BookApp {
 	private static BookDAO bookDao = new BookDAOImpl();
 	
-	//List<Book> books = bookDAO.findAllBooks();
-	//List<Book> books = bookDAO.searchBooksByKeyWord(keyWord);
 	
 	public static void main(String[] args) {
 		
